@@ -1,0 +1,8 @@
+*
+
+!/.gitignore
+!/CHANGELOG.md
+!/LICENSE
+!/README.md
+
+!/typst.toml
