@@ -1,4 +1,4 @@
-# nikonova
+# quonom
 
 A [Typst](https://typst.app/) package for polynomial division.
 
@@ -7,6 +7,24 @@ A [Typst](https://typst.app/) package for polynomial division.
 ## Usage
 
 ```typ
+#import "@preview/quonom:0.1.0": manual-synthdiv, synthdiv
+
+#figure(
+	caption: "Manual synthetic division, fill the missing fields manually by yourself",
+	manual-synthdiv(
+		(1, -1, -1, 10),
+		-2,
+		1, -2, -3, 6, 5, -10, 0
+	)
+) \
+
+#figure(
+	caption: "Automatic synthetic division",
+	synthdiv(
+		(1, -1, -1, 10),
+		-2,
+	)
+)
 
 ```
 

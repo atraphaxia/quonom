@@ -11,7 +11,7 @@
 			(top: stroke)
 		}
 	)
-	align(center, table(
+	table(
 		align: right,
 		columns: coefficients.len() + 1,
 		none,
@@ -21,7 +21,7 @@
 		..range(coefficients.len() - 1).map(i => $#steps.at(i * 2 + 1, default: none)$),
 		none,
 		..range(coefficients.len()).map(i => $#steps.at(i * 2, default: none)$)
-	))
+	)
 }
 
 
