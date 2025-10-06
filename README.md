@@ -29,6 +29,12 @@ A [Typst](https://typst.app/) package for polynomial division.
 
 
 
+## Etymology
+
+Quonom is a combination of the words *quotient* and *polynomial*.
+
+
+
 ## Acknowledgements
 
 I would like to thank the maintainers of the following projects which are used in this package.
