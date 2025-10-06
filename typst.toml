@@ -3,7 +3,7 @@ name = "quonom"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
 
-description = "Typeset polynomial long division and synthetic division."
+description = "Manually and automatically typeset synthetic division."
 categories = ["components", "visualization"]
 disciplines = ["education", "mathematics"]
 

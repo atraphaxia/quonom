@@ -10,7 +10,7 @@ A [Typst](https://typst.app/) package for polynomial division.
 #import "@preview/quonom:0.1.0": manual-synthdiv, synthdiv
 
 #figure(
-	caption: "Manual synthetic division, fill the missing fields manually by yourself",
+	caption: "Manual synthetic division, fill the missing fields by yourself",
 	manual-synthdiv(
 		(1, -1, -1, 10),
 		-2,
