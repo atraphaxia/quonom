@@ -25,7 +25,6 @@ A [Typst](https://typst.app/) package for polynomial division.
 		-2,
 	)
 )
-
 ```
 
 
